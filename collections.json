@@ -194,6 +194,12 @@
     "slug": "bitboy_one_genesis"
   },
   {
+    "name": "Bitcoin Frogs",
+    "type": "gallery",
+    "id": "659e684ff344c7d7be30bf608e214dcad96596589ddc738bd72e2fed6faf5a62i0",
+    "slug": "bitcoin_frogs"
+  },
+  {
     "name": "Bitdream by Howie Lab",
     "type": "parent",
     "ids": [
