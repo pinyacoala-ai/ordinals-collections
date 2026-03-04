@@ -1,6 +1,6 @@
 import { readFile, writeFile } from 'node:fs/promises'
-
-const path = new URL('../collections.json', import.meta.url).pathname
+import { fileURLToPath } from 'node:url'
+const path = fileURLToPath(new URL('../collections.json', import.meta.url))
 const collections = JSON.parse(await readFile(path, 'utf8'))
 
 for (const entry of collections) {
